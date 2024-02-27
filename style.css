@@ -1,0 +1,40 @@
+/* navbar */
+.navbar-brand{
+color: rgb(255, 179, 0);
+font-weight: bolder;
+}
+.nav-link{
+    color: white;
+    text-decoration: none;
+
+}
+.nav-item{
+    padding: 0% 5%;
+}
+#carouselExampleCaptions{
+        /* width: 50%; */
+   
+        height: 50vh;
+}
+.img{
+height: 50vh;
+   
+}
+.h3{
+z-index: 5000;
+}
+.firstcontainer{
+ 
+    justify-content: space-around;
+}
+
+/* https://dummyjson.com/ */
+
+
+/* iphone discription */
+.discriptionImg{
+
+}
+#capacity{
+  list-style: none;
+}
