@@ -1,40 +1,73 @@
 /* navbar */
-.navbar-brand{
-color: rgb(255, 179, 0);
-font-weight: bolder;
+.navbar {
+  background-color: rgb(47, 110, 130);
 }
-.nav-link{
-    color: white;
-    text-decoration: none;
+.navbar-brand {
+  color: rgb(255, 179, 0);
+  font-weight: bolder;
+}
+.nav-link {
+  color: white;
+  text-decoration: none;
+}
+.nav-link:hover {
+  color: #ffd700;
+}
+.nav-item {
+  padding: 0% 5%;
+}
+#carouselExampleCaptions {
+  height: 50vh;
+}
+body {
+  background-color: #f2f2f2;
+}
+.img {
+  height: 50vh;
+}
+.h3 {
+  z-index: 5000;
+}
+/* card */
+.card {
+  width: 18rem;
+  height: 100%;
+  border: #2b6777 2px solid;
+}
+.cardImg {
+  object-fit: cover;
+  height: 50%;
+}
 
+.card-body {
+  background-color: #2b6777;
+  position: relative;
 }
-.nav-item{
-    padding: 0% 5%;
+.card-title {
+  color: #ffffff;
 }
-#carouselExampleCaptions{
-        /* width: 50%; */
-   
-        height: 50vh;
-}
-.img{
-height: 50vh;
-   
-}
-.h3{
-z-index: 5000;
-}
-.firstcontainer{
- 
-    justify-content: space-around;
+.card-text {
+  color: #cccccc;
 }
 
-/* https://dummyjson.com/ */
-
-
-/* iphone discription */
-.discriptionImg{
-
+.viewBtn {
+  width: 50%;
+  position: absolute;
+  bottom: 0;
+  left: 50%;
+  transform: translateX(-50%);
 }
-#capacity{
-  list-style: none;
+.cardContainer {
+  background-color: #c8d8e4;
+  display: flex;
+  justify-content: space-evenly;
+}
+
+.btn {
+  background-color: #52ab98;
+}
+
+/* product.html */
+.productContainer{
+  background-color:#f2f2f2;
 }

@@ -3,7 +3,7 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>shopping site</title>
+    <title>product</title>
     <!-- bootstrap cdn -->
     <link
       href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css"
@@ -26,14 +26,13 @@
     />
     <!-- stylesheet -->
     <link rel="stylesheet" href="style.css" />
-    <!-- js file -->
-    <script src="main.js" defer></script>
+    <script src="/js_files/product.js" defer></script>
   </head>
   <body>
     <!-- navbar -->
-    <nav class="navbar navbar-expand-lg bg-secondary navbar-dark">
+    <nav class="navbar navbar-expand-lg navbar-dark">
       <div class="container-fluid">
-        <a class="navbar-brand" href="index.html"
+        <a class="navbar-brand" href="#"
           >ShoppingSite.com
           <i class="fa-solid fa-cart-shopping text-warning"></i
         ></a>
@@ -65,48 +64,10 @@
         </div>
       </div>
     </nav>
-    <!--details  -->
+    <!-- main container -->
     <div class="container-flex">
-      <div class="row">
-        <div class="col-md-6 text-center">
-          <h2 class="p-2">MSI GF63 Thin</h2>
-
-          <img
-            src="images/msidis.jpg"
-            class="discriptionImg w-50 mt-5"
-            alt="iphone 15 pro"
-          />
-        </div>
-        <div class="col-md-6 p-5">
-          <div class="">
-            <h6>CPU</h6>
-
-            <p>Intel Core i5-11400H processor</p>
-          </div>
-          <hr />
-          <div>
-            <h6>RAM and STORAGE</h6>
-            <p>
-              8 GB DDR4-3200 memory (expandable up to 64 GB) 512 GB NVMe PCIe
-              Gen3 M.2 SSD (with additional 2.5” SATA HDD bay available)
-            </p>
-            <hr />
-            <h6>GPU and Operating System</h6>
-            <p>
-              NVIDIA GeForce RTX 2050 graphics card with 4 GB GDDR6 VRAM,
-              Windows 10 Home (upgradable to Windows 11)
-            </p>
-            <hr />
-            <h6>DISPLAY and PORTS</h6>
-            <p>
-              15.6-inch Full HD (FHD) 1920x1080 resolution, 144Hz refresh rate,
-              IPS-level panel ,1x Type-C USB3.2 Gen1, 3x Type-A USB3.2 Gen1, 1x
-              HDMI (4K @ 30Hz), 1x RJ45 Ethernet port, headphone jack,
-              microphone input
-            </p>
-          </div>
-        </div>
-      </div>
+      <div class="row descriptionContainer"></div>
     </div>
   </body>
 </html>
+
