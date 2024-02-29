@@ -21,7 +21,7 @@ fetch(url)
     alt="product description"
   />
 </div>
-<div class="col-sm-6 mt-5 productContainer">
+<div class="col-sm-6 mt-1 p-5 productContainer">
   <h6>Description</h6>
   <p>${data.products[index].description}</p>
   <hr />

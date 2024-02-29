@@ -14,7 +14,7 @@ fetch(url)
     for (let i = 0; i < data.products.length; i++) {
       card += `
 
-     <div class="col-sm-4 mt-5">
+     <div class="col-sm-4 mt-5 d-flex align-items-center justify-content-center">
         <div class="card">
                 <img class="card-img-top cardImg" src="${data.products[i].images[0]}"  alt="Card image cap">
              <div class="card-body">
